@@ -1,2 +1,2 @@
-#Ramina CMS
-##rCMS (sistema de gestión de contenidos), Basado en Expressjs, angular6+ y Mongodr
+# Ramina CMS
+## CMS (sistema de gestión de contenidos), Basado en Expressjs, angular6+ y MongoDB
