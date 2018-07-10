@@ -1,0 +1,30 @@
+{
+  "name": "raminacms",
+  "version": "1.0.0",
+  "description": "Cms sistema de gestión de contenidos Basado en Expressjs, angular6+ y Mongodb",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredyteheranto/raminacms.git"
+  },
+  "keywords": [
+    "cms",
+    "Angular6+",
+    "Ramina",
+    "nodejs",
+    "mongodb",
+    "heroku",
+    "git",
+    "html",
+    "css3"
+  ],
+  "author": "fredyteheranto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredyteheranto/raminacms/issues"
+  },
+  "homepage": "https://github.com/fredyteheranto/raminacms#readme"
+}
