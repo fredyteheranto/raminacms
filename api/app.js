@@ -2,8 +2,10 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 var app = express();
-app.use(bodyParser.urlencoded({extended:false}));
+var rutaUsuarios = require("./rutas/rt-usuarios.ruta.js");
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
 
 //$GetCurrent
 
@@ -14,4 +16,6 @@ app.use(function(req, res, next) {
   res.header("Allow", "GET, POST, PUT, DELETE");
   next();
 });
+// Usuario
+app.use("/api", rutaUsuarios);
 module.exports = app;
