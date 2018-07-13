@@ -6,13 +6,10 @@ var app = express();
 var rutaUsuarios = require("./rutas/rt-usuarios.ruta.js");
 var rutaMenu = require("./rutas/rt-menu.ruta.js");
 var rutaOpciones = require("./rutas/rt-opciones.ruta.js");
-
 var rutaMedia = require("./rutas/rt-media.ruta.js");
 var rutaCategorias = require("./rutas/rt-categorias.ruta.js");
-
 var rutaPost = require("./rutas/rt-post.ruta.js");
 var rutaPlantillas = require("./rutas/rt-plantillas.ruta.js");
-
 var rutaModulos = require("./rutas/rt-modulos.ruta.js");
 var rutaPaginas = require("./rutas/rt-paginas.ruta.js");
 
