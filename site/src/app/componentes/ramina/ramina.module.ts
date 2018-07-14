@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { RaminaRoutingModule } from './ramina-routing.module';
 import { RaminaComponent } from './ramina.component';
+import { DashboardComponent } from '.././dashboard/dashboard.component';
 
 
 @NgModule({
@@ -10,6 +11,6 @@ import { RaminaComponent } from './ramina.component';
     CommonModule,
     RaminaRoutingModule
   ],
-  declarations: [RaminaComponent]
+  declarations: [RaminaComponent,DashboardComponent]
 })
 export class RaminaModule { }

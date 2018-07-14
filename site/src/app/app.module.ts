@@ -5,6 +5,10 @@ import { HttpModule } from '@angular/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { AvatarModule } from 'ng2-avatar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+
+
 
 
 import { AppComponent } from './app.component';
@@ -14,6 +18,9 @@ import { SidebarComponent } from './componentes/sidebar/sidebar.component';
 import { TopbarComponent } from './componentes/topbar/topbar.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { AppRoutingModule } from './app.rutas';
+import { ServicioUsuarios } from "./servicios/usuario.servicio";
+
+//import { PostComponent } from './componentes/post/post.component';
 //import { DashboardComponent } from './componentes/dashboard/dashboard.component';
 
 @NgModule({
@@ -21,8 +28,10 @@ import { AppRoutingModule } from './app.rutas';
     AppComponent,
     SidebarComponent,
     TopbarComponent,
-    FooterComponent
+    FooterComponent,
+    
   ],
+
   imports: [
     CommonModule,
     BrowserModule,
@@ -31,8 +40,13 @@ import { AppRoutingModule } from './app.rutas';
     FormsModule,
     ReactiveFormsModule,
     AvatarModule.forRoot(),
+    BrowserAnimationsModule,
+    NoopAnimationsModule,
+
+
   ],
-  providers: [AppComponent],
+ 
+  providers: [AppComponent,ServicioUsuarios],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

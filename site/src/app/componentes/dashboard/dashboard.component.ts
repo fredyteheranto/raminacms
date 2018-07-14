@@ -10,7 +10,9 @@ export class DashboardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('ok')
+    console.log('ok d')
+
+    
   }
 
 }
